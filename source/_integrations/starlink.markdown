@@ -46,6 +46,7 @@ The Starlink integration allows you to integrate your [Starlink](https://www.sta
 - Download - Total number of bytes downloaded to the user terminal since reboot
 - Power - Last measured power [W]
 - Energy - Measured energy consumption since reboot [kWh]
+- State - The raw status of Starlink. Usually `CONNECTED` when working, but is useful for more detail when outages occur (`NO_PINGS` is 'No signal' in the app, `SEARCHING` is 'Searching for satellites', etc.)
 
 ### Binary sensor
 
@@ -59,6 +60,7 @@ The Starlink integration allows you to integrate your [Starlink](https://www.sta
 - Slow ethernet - Whether the Ethernet link is at max (gigabit) speed
 - Thermal throttle - Whether Starlink has reduced performance to avoid overheating
 - Unexpected location - Whether Starlink has detected operation outside of its designated area
+- Connected - Whether Starlink is connected to the Internet
 
 ### Button
 
