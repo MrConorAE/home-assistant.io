@@ -41,6 +41,7 @@ The Starlink integration allows you to integrate your [Starlink](https://www.sta
 - Uplink throughput - The amount of data being uploaded through Starlink
 - Downlink throughput - The amount of data being downloaded through Starlink
 - Last boot time - The time Starlink was last turned on
+- State - The raw status of Starlink. Usually `CONNECTED` when working, but is useful for more detail when outages occur (`NO_PINGS` is 'No signal' in the app, `SEARCHING` is 'Searching for satellites', etc.)
 
 ### Binary sensor
 
@@ -54,6 +55,7 @@ The Starlink integration allows you to integrate your [Starlink](https://www.sta
 - Slow ethernet - Whether the Ethernet link is at max (gigabit) speed
 - Thermal throttle - Whether Starlink has reduced performance to avoid overheating
 - Unexpected location - Whether Starlink has detected operation outside of its designated area
+- Connected - Whether Starlink is connected to the Internet
 
 ### Button
 
